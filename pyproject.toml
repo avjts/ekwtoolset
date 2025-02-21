@@ -1,0 +1,15 @@
+[tool.black]
+line-length = 120
+skip-string-normalization = true
+
+[tool.pylint]
+max-line-length = 120
+max-attributes = 10
+const-naming-style = 'UPPER_CASE'
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = [
+    'missing-module-docstring',
+    'missing-class-docstring',
+    'missing-function-docstring',
+]

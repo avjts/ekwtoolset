@@ -1,7 +1,7 @@
 import argparse
 from typing import Iterable
 
-from helpers import remove_help_tip
+from py import remove_help_tip
 from kwengine import validate_kw_num, validate_court, calc_kwid_control_digit_inner
 
 

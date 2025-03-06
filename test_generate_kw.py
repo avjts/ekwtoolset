@@ -1,7 +1,8 @@
 # import logging
 import unittest
 
-from generate_kw import calc_kwid_control_digit, kwnums, yield_kwid_range, filter_kwid_range
+from generate_kw import kwnums, yield_kwid_range, filter_kwid_range
+from kwengine import calc_kwid_control_digit
 
 
 # logging.basicConfig(level=logging.DEBUG)

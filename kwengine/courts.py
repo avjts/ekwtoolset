@@ -1,5 +1,5 @@
 COURTS: set[str] = {
-    'BB1B',  # BIELSKO - BIAŁA
+    'BB1B',  # BIELSKO-BIAŁA
     'BB1C',  # CIESZYN
     'BB1Z',  # ŻYWIEC
     'BI1B',  # BIAŁYSTOK

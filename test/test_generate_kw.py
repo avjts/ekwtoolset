@@ -1,5 +1,11 @@
 # import logging
+import sys
 import unittest
+from pathlib import Path
+
+this_dir = Path(__file__).parent
+root_dir = (this_dir / '..').resolve()
+sys.path.insert(0, str(root_dir))
 
 from generate_kw import kwnums, yield_kwid_range, filter_kwid_range
 from kwengine import calc_kwid_control_digit
